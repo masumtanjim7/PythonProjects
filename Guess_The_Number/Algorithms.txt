@@ -18,7 +18,7 @@ If the User inputs range, let’s say from 1 to 50. And compiler randomly select
 
 So, the minimum number of guesses depends upon range. And the compiler must calculate the minimum number of guessing depends upon the range, on its own. For this, we have a formula:-
 
- Minimum number of guessing = log2(Upper bound – lower bound + 1)
+                                                  Minimum number of guessing = log2(Upper bound – lower bound + 1)
 
 Step-by-step algorithm:
 
