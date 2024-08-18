@@ -1,6 +1,6 @@
 Below are the steps:
 Build a Number guessing game, in which the user selects a range.
-Let’s say User selected a range, i.e., from A to B, where A and B belong to Integer.
+Let’s say User selected a range, from A to B, where A and B belong to Integer.
 Some random integer will be selected by the system and the user has to guess that integer in the minimum number of guesses
 
 
@@ -18,7 +18,11 @@ If the User inputs range, let’s say from 1 to 50. And compiler randomly select
 
 So, the minimum number of guesses depends upon range. And the compiler must calculate the minimum number of guessing depends upon the range, on its own. For this, we have a formula:-
 
-                                                  Minimum number of guessing = log2(Upper bound – lower bound + 1)
+                                               Minimum number of guessing = log2(Upper bound – lower bound + 1)
+
+                                                       in code i use      x = random.randint(lower, upper)
+                                                                          total_chances = math.ceil(math.log(upper - lower + 1, 2))         
+
 
 Step-by-step Algorithm:
 
