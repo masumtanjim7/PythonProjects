@@ -20,7 +20,7 @@ So, the minimum number of guesses depends upon range. And the compiler must calc
 
                                                Minimum number of guessing = log2(Upper bound – lower bound + 1)
 
-                                                       in code i use      x = random.randint(lower, upper)
+                                                       in code I used     x = random.randint(lower, upper)
                                                                           total_chances = math.ceil(math.log(upper - lower + 1, 2))         
 
 
